@@ -1,8 +1,9 @@
-import random
-print("********************************")
-print("***Bem-vindo ao Jogo da Forca!**")
-print("********************************")
+def jogar():
+    print("********************************")
+    print("***Bem-vindo ao Jogo da Forca!**")
+    print("********************************")
 
+    print("FIM DE JOGO")
 
-
-print("FIM DE JOGO")
+if(__name__ == "__main__"):
+    jogar()
