@@ -4,6 +4,8 @@ def jogar():
     print("********************************")
 
     palavra_secreta = "banana"
+    letras_acertadas = ["_", "_", "_", "_", "_", "_"]
+
 
     enforcou = False
     acertou = False
@@ -15,9 +17,9 @@ def jogar():
         index = 0
         for letra in palavra_secreta:
             if (chute.upper() == letra.upper()):
-                print("Encontrei a letra {} na posição {}".format(letra, index))
+                letras_acertadas[index] = letra
             index = index + 1
-        print("Jogando...")
+        print(letras_acertadas)
 
     print("FIM DE JOGO")
 
