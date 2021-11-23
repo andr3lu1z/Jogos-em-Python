@@ -8,4 +8,4 @@ idade = int(input("digite sua idade"))
 
 dias_vividos = idade * 365
 
-print(nome,", você já viveu:", dias_vividos, "dias")
+print(nome,", você já viveu {} dias:".format(dias_vividos))
